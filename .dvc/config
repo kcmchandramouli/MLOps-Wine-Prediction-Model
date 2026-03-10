@@ -1,4 +1,5 @@
 [core]
-    remote = wineremote
-['remote "wineremote"']
-    url = s3://mlops-demo-abhishek-dvc-bucket
+    remote = origin
+['remote "origin"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/kcmchandramouli/Wine-Prediction-Model-GitHub-Dataset.s3
